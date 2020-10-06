@@ -2,7 +2,6 @@ const nodemailer = require('nodemailer');
 const express=require('express');
 const app=express();
 const SalesforceConnection = require("node-salesforce-connection");
-(async () => {
  
     let sfConn = new SalesforceConnection();
    console.log('connecting')
